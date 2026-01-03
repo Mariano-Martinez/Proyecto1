@@ -113,7 +113,7 @@ export default function TrackerDetailPage() {
                   </div>
                   <p className="text-sm font-semibold text-slate-900">{event.title}</p>
                   <p className="text-xs text-slate-600">
-                    ${event.price.toLocaleString()} {event.oldPrice ? `(antes ${event.oldPrice.toLocaleString()})` : \"\"}
+                    ${event.price.toLocaleString()} {event.oldPrice ? `(antes ${event.oldPrice.toLocaleString()})` : ""}
                   </p>
                   {event.url && (
                     <a href={event.url} className="text-xs font-semibold text-brand-blue hover:underline" target="_blank" rel="noreferrer">
